@@ -4,4 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "finnhub-python>=2.4.25",
+    "google-genai>=1.51.0",
+    "httpx>=0.28.1",
+    "langchain-google-genai>=3.1.0",
+    "pymongo>=4.15.4",
+    "python-dotenv>=1.2.1",
+]
