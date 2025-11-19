@@ -1,0 +1,114 @@
+2025-11-19 14:39:08,257 - INFO - GET /api/hello called
+2025-11-19 14:41:15,325 - INFO - POST /api/chat called with message.
+2025-11-19 14:41:15,483 - INFO - AFC is enabled with max remote calls: 10.
+2025-11-19 14:41:16,368 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-19 14:41:16,377 - INFO - AI responded: The ticker symbol for Apple is **AAPL**.
+
+2025-11-19 14:41:41,273 - INFO - POST /api/chat called with message.
+2025-11-19 14:41:41,349 - INFO - AFC is enabled with max remote calls: 10.
+2025-11-19 14:41:42,184 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-19 14:41:42,185 - INFO - AI responded: AAPL
+
+2025-11-19 14:41:56,438 - INFO - POST /api/chat called with message.
+2025-11-19 14:41:56,526 - INFO - AFC is enabled with max remote calls: 10.
+2025-11-19 14:41:57,406 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-19 14:41:57,408 - INFO - AI responded: QLYS
+
+2025-11-19 14:42:07,972 - INFO - POST /api/chat called with message.
+2025-11-19 14:42:08,052 - INFO - AFC is enabled with max remote calls: 10.
+2025-11-19 14:42:09,082 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-19 14:42:09,086 - INFO - AI responded: NFLX
+
+2025-11-19 14:42:33,704 - INFO - POST /api/chat called with message.
+2025-11-19 14:42:33,801 - INFO - AFC is enabled with max remote calls: 10.
+2025-11-19 14:42:34,774 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-19 14:42:34,775 - INFO - AI responded: TATACOMM.NS
+
+2025-11-19 15:08:52,959 - INFO - GET /api/hello called
+2025-11-19 15:08:52,963 - INFO - POST /api/chat called with message.
+2025-11-19 15:08:53,101 - INFO - AFC is enabled with max remote calls: 10.
+2025-11-19 15:08:56,077 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-19 15:08:56,078 - INFO - AI responded: The risk-free rate is the theoretical rate of return of an investment with **zero risk**. In other words, it's the return an investor would expect from an absolutely safe investment over a specific period.
+
+Here's a breakdown of what that means and why it's important:
+
+*   **Theoretical Zero Risk:** In reality, nothing is truly risk-free. However, for practical purposes, certain investments are considered to be very close to risk-free.
+
+*   **Common Proxy: Government Bonds:**  The most common proxy for the risk-free rate is the yield on a government bond, typically a Treasury bill (T-bill) or a Treasury bond issued by a stable and creditworthy government (like the U.S. government). The rationale is that the government is highly unlikely to default on its debt obligations, so the risk of not getting your principal back is very low.
+
+*   **Specific Maturity:** The risk-free rate needs to match the time horizon of the investment being evaluated. For example, if you're analyzing a 10-year project, you would use the yield on a 10-year government bond as the risk-free rate.
+
+**Why is the Risk-Free Rate Important?
+2025-11-19 15:08:56,085 - INFO - GET /api/stock API called for ticker: AAPL
+2025-11-19 15:08:57,193 - ERROR - Error fetching stock data for AAPL: 'Date'
+2025-11-19 15:08:57,443 - INFO - GET /api/predict AI prediction API called for ticker: AAPL
+2025-11-19 15:09:07,004 - INFO - GET /api/predict prediction for ticker AAPL
+2025-11-19 15:09:07,010 - INFO - GET /api/options API called for ticker: AAPL
+2025-11-19 15:09:07,977 - INFO - Options for AAPL: ('2025-11-21', '2025-11-28', '2025-12-05', '2025-12-12', '2025-12-19', '2025-12-26', '2026-01-02', '2026-01-16', '2026-02-20', '2026-03-20', '2026-04-17', '2026-05-15', '2026-06-18', '2026-08-21', '2026-09-18', '2026-12-18', '2027-01-15', '2027-06-17', '2027-12-17', '2028-01-21')
+2025-11-19 15:09:07,978 - ERROR - Error fetching stock data for AAPL: Expiration `2025-01-17` cannot be found. Available expirations are: [2025-11-21, 2025-11-28, 2025-12-05, 2025-12-12, 2025-12-19, 2025-12-26, 2026-01-02, 2026-01-16, 2026-02-20, 2026-03-20, 2026-04-17, 2026-05-15, 2026-06-18, 2026-08-21, 2026-09-18, 2026-12-18, 2027-01-15, 2027-06-17, 2027-12-17, 2028-01-21]
+2025-11-19 15:10:14,019 - INFO - GET /api/hello called
+2025-11-19 15:10:14,024 - INFO - POST /api/chat called with message.
+2025-11-19 15:10:14,156 - INFO - AFC is enabled with max remote calls: 10.
+2025-11-19 15:10:17,640 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-19 15:10:17,641 - INFO - AI responded: The **risk-free rate** is the theoretical rate of return of an investment with zero risk. It represents the return an investor would expect from an absolutely safe investment over a specified period.
+
+Here's a breakdown of what that means:
+
+* **Theoretical:** In reality, no investment is truly without risk. Even government bonds, often considered the closest thing to risk-free, carry some degree of inflation risk or liquidity risk.  The risk-free rate is an idealized benchmark.
+
+* **Zero Risk:**  This implies no chance of losing principal or interest.  The investment is guaranteed to return the agreed-upon amount.
+
+* **Benchmark:**  The risk-free rate serves as a baseline for evaluating the risk and return of other investments. Investors use it to determine the minimum return they require for taking on additional risk.  Higher risk investments should offer a higher return to compensate for the added risk.
+
+**Common Proxies for the Risk-Free Rate:**
+
+Because a truly risk-free investment doesn't exist, analysts typically use government bonds as proxies. The most common proxies are:
+
+* **U.S. Treasury Bills (T-Bills):** These are short-term government debt securities with maturities of one year or less.
+2025-11-19 15:10:17,647 - INFO - GET /api/stock API called for ticker: AAPL
+2025-11-19 15:10:18,434 - ERROR - Error fetching stock data for AAPL: 'Date'
+2025-11-19 15:10:18,694 - INFO - GET /api/predict AI prediction API called for ticker: AAPL
+2025-11-19 15:10:27,525 - INFO - GET /api/predict prediction for ticker AAPL
+2025-11-19 15:10:27,532 - INFO - GET /api/options API called for ticker: AAPL
+2025-11-19 15:10:30,083 - INFO - Options for AAPL: ('2025-11-21', '2025-11-28', '2025-12-05', '2025-12-12', '2025-12-19', '2025-12-26', '2026-01-02', '2026-01-16', '2026-02-20', '2026-03-20', '2026-04-17', '2026-05-15', '2026-06-18', '2026-08-21', '2026-09-18', '2026-12-18', '2027-01-15', '2027-06-17', '2027-12-17', '2028-01-21')
+2025-11-19 15:10:30,217 - INFO - GET /api/options Returning stock data for AAPL
+2025-11-19 15:25:22,549 - INFO - GET /api/hello called
+2025-11-19 15:25:22,554 - INFO - POST /api/chat called with message.
+2025-11-19 15:25:22,703 - INFO - AFC is enabled with max remote calls: 10.
+2025-11-19 15:25:26,168 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-19 15:25:26,170 - INFO - AI responded: The risk-free rate is the theoretical rate of return of an investment with **zero risk**. It represents the return investors expect for taking absolutely no risk. In practice, a truly risk-free investment doesn't exist, but government bonds of developed countries are often used as a proxy because they are considered to have a very low risk of default.
+
+Here's a breakdown of the key aspects of the risk-free rate:
+
+*   **Theoretical Benchmark:** It's a foundational concept in finance. All other investments are evaluated relative to the risk-free rate. Investors expect to earn a premium (additional return) above the risk-free rate to compensate them for taking on additional risk.
+*   **Proxy for Risk-Free:** In the real world, there's no such thing as a truly risk-free investment. However, the yield on a government bond of a developed country (like U.S. Treasury bonds) is usually used as a proxy.  This is because the government is considered highly unlikely to default on its debt.
+*   **Factors Influencing the Rate:** Several factors influence the risk-free rate, including:
+    *   **Inflation Expectations:** Higher inflation expectations typically lead to a higher risk-free rate.
+2025-11-19 15:25:26,177 - INFO - GET /api/stock API called for ticker: AAPL
+2025-11-19 15:25:32,811 - ERROR - Error fetching stock data for AAPL: 'Date'
+2025-11-19 15:25:32,983 - INFO - GET /api/predict AI prediction API called for ticker: AAPL
+2025-11-19 15:25:43,704 - INFO - GET /api/predict prediction for ticker AAPL
+2025-11-19 22:10:32,925 - INFO - GET /api/hello called
+2025-11-19 22:10:32,931 - INFO - POST /api/chat called with message.
+2025-11-19 22:10:33,114 - INFO - AFC is enabled with max remote calls: 10.
+2025-11-19 22:10:39,215 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-11-19 22:10:39,221 - INFO - AI responded: The risk-free rate is the theoretical rate of return of an investment with **zero risk**.  In reality, a truly risk-free investment doesn't exist, but it serves as a benchmark for evaluating the risk and return of other investments.
+
+Here's a breakdown of what that means:
+
+*   **Rate of Return:**  The percentage gain or loss on an investment over a specific period.
+*   **Zero Risk:**  No possibility of losing your principal investment. This implies certainty of receiving the expected return.
+
+**Key characteristics of a risk-free rate:**
+
+*   **No Default Risk:** The issuer (e.g., government) is highly unlikely to default on its obligations.
+*   **No Inflation Risk:** The return is protected from the erosion of purchasing power due to inflation.  (This is often a simplification, as even government bonds are subject to some inflation risk).
+*   **No Liquidity Risk:** The investment can be easily and quickly converted to cash without significant loss of value.
+
+**Practical Application and Proxies:**
+
+Since a truly risk-free asset doesn't exist, economists and financial professionals use proxies to represent the risk-free rate.  The most common proxy is the yield on a
+2025-11-19 22:10:39,228 - INFO - GET /api/stock API called for ticker: AAPL
+2025-11-19 22:10:41,317 - ERROR - Error fetching stock data for AAPL: 'Date'
+2025-11-19 22:10:41,566 - INFO - GET /api/predict AI prediction API called for ticker: AAPL
+2025-11-19 22:10:54,545 - INFO - GET /api/predict prediction for ticker AAPL
